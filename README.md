@@ -9,6 +9,7 @@ This project is a web-based Etch-A-Sketch application that allows you to draw an
 - Clear the grid content.
 - Toggle between eraser mode and color mode.
 - Select the color you want to use.
+- Rainbow Mode
 
 ## Usage
 
