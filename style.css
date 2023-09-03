@@ -1,21 +1,31 @@
+:root {
+  --secondary-light: #fefefe;
+  --primary-dark: #333;
+}
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   gap: 12px;
-  height: 100vh;
   margin: 0;
   padding: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #1f2331;
+  background-color: #ededed;
+}
+.title {
+  font-size: 80px;
+  font-family: "Permanent Marker", cursive;
 }
 
 .container {
   display: grid;
   width: 500px;
   height: 500px;
-  border: 2px solid #08ffbd;
+  background-color: var(--secondary-light);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .grid-item {
@@ -23,29 +33,47 @@ body {
 }
 
 #gridSizeBtn {
-  padding: 12px;
-  border: none;
-  background-color: #000;
-  color: white;
+  padding: 10px;
+  border: 2px solid #000;
   font-size: 18px;
   border-radius: 7px;
 }
 
 #clearBtn {
-  padding: 12px;
-  border: none;
-  background-color: #000;
-  color: white;
+  padding: 10px;
+  width: 100px;
+  border: 2px solid #000;
   font-size: 18px;
   border-radius: 7px;
 }
 
-#rainbowModeBtn {
-  padding: 12px;
-  border: none;
-  background-color: #000;
-  color: white;
+input {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+}
+
+input[type="color"] {
+  cursor: pointer; /* Optional: Remove the pointer cursor on hover */
+  background: none; /* Remove the background color */
+  box-shadow: none; /* Remove any box shadow */
+  outline: none; /* Remove the outline when focused */
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+input[type="color"]:active {
+  background-color: transparent !important;
+}
+
+button {
+  padding: 10px;
+  border: 2px solid #000;
   font-size: 18px;
   border-radius: 7px;
 }
-
