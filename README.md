@@ -1,38 +1,27 @@
-# Etch-a-Sketch
+# Etch-A-Sketch
 
-Este proyecto es parte del currículo de [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/etch-a-sketch-project).
+This project is a web-based Etch-A-Sketch application that allows you to draw and color on a grid. You can change the grid size, erase, and customize colors to your liking.
 
-## Descripción
-Etch-a-Sketch es una aplicación web simple que emula la funcionalidad de un juguete clásico Etch-a-Sketch. Los usuarios pueden dibujar en una cuadrícula utilizando el mouse y luego borrar o reiniciar la cuadrícula según sea necesario.
+## Features
 
-## Capturas de Pantalla
-_Inserta aquí algunas capturas de pantalla de tu aplicación._
+- Draw on the grid using the selected color.
+- Change the grid size, with a maximum size of 64x64.
+- Clear the grid content.
+- Toggle between eraser mode and color mode.
+- Select the color you want to use.
 
-## Características
-- **Dibujo en la cuadrícula:** Los usuarios pueden dibujar en la cuadrícula con el mouse.
-- **Borrar:** Los usuarios pueden borrar el contenido de la cuadrícula.
-- **Reiniciar:** Los usuarios pueden reiniciar la cuadrícula a su estado original.
+## Usage
 
-## Tecnologías Utilizadas
-- HTML
-- CSS
-- JavaScript
+1. Open the [Live Demo](https://causadev.github.io/Etch-a-Sketch/) to try out the application in action.
+2. Adjust the grid size by clicking the "Change Grid Size" button and following the instructions.
+3. Select a color using the color picker or switch to eraser mode by clicking "Eraser."
+4. Draw on the grid by holding down the mouse button and moving it over the cells.
+5. You can erase content by clicking "Eraser" or restore the previous color by clicking "Color Mode."
+6. To clear the entire grid, simply click "Clear Grid."
 
-## Instalación
-No se requiere instalación. Solo abre `index.html` en tu navegador web.
+## Useful Links
 
-## Uso
-1. Abre `index.html` en tu navegador.
-2. Utiliza el mouse para dibujar en la cuadrícula.
-3. Utiliza el botón de "Borrar" para limpiar la cuadrícula.
-4. Utiliza el botón de "Reiniciar" para volver a la cuadrícula original.
+- [Live Demo](https://causadev.github.io/Etch-a-Sketch/)
+- [The Odin Project - Etch-A-Sketch Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/etch-a-sketch-project)
 
-## Contribución
-Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request con tus mejoras.
-
-## Licencia
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
-
----
-
-¡Diviértete dibujando en tu Etch-a-Sketch!
+Enjoy drawing with Etch-A-Sketch!
