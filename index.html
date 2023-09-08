@@ -7,16 +7,18 @@
     <title>Etch-a-Sketch</title>
   </head>
   <body>
-    <h1 class="title">Etch-a-sketch</h1>
-    <main>
-      <button id="colorModeBtn">Color Mode</button>
-      <button id="rainbowBtn">Rainbow Mode</button>
-      <button id="eraserBtn">Eraser</button>
-      <button id="gridSizeBtn">Set a grid size</button>
+    <h1>Etch-a-Sketch</h1>
+    <div class="buttons">
+      <button id="colorBtn">Color</button>
+      <button id="rainbowBtn">Rainbow</button>
+      <button id="eraseBtn">Eraser</button>
       <button id="clearBtn">Clear</button>
-      <input placeholder="Pick a color" id="colorPicker" type="color" />
-      <p id="text"></p>
-    </main>
+    </div>
+    <div class="settings">
+      <input id="colorPicker" type="color" value="#333333" />
+      <input id="sizeSlider" type="range" min="1" max="64" />
+      <p><output id="value"></output></p>
+    </div>
     <div class="container"></div>
     <script src="index.js"></script>
   </body>
