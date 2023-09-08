@@ -6,14 +6,6 @@ body {
   text-align: center;
 }
 
-.buttons {
-  margin: 10px 0;
-}
-
-.buttons button {
-  margin: 5px;
-}
-
 .container {
   margin: 0 auto;
   display: grid;
@@ -29,9 +21,7 @@ body {
   user-select: none;
 }
 
-
-
-.buttons button {
+button {
   margin: 5px;
   padding: 10px 20px;
   font-size: 16px;
@@ -43,73 +33,25 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.buttons button:hover {
+button:hover {
   background-color: #0056b3;
 }
 
 input[type="color"] {
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   border: none;
-  cursor: pointer;
+  margin: 18px;
 }
 
-#sizeSlider {
-  cursor: pointer;
-  margin-bottom: 20px;
+input[type="range"] {
+  margin: 12px;
 }
 
-.settings p {
-  margin-top: 10px;
-  font-size: 18px;
-  color: white;
-}
-
-.settings {
+.containerSettings {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 20px;
-}
-
-#sizeSlider {
-  margin-top: 20px;
-}
-
-.settings p {
-  margin-top: 10px;
-  font-size: 18px;
-  color: white;
-}
-
-.input-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.input-container label {
-  margin-right: 10px;
-  font-size: 16px;
-  align-self: center;
-}
-
-input[type="color"] {
-  border-radius: 5px;
-  padding: 0;
-  border: 5px solid #DDD;
-}
-
-input[type="color"]::-moz-color-swatch {
-  border: none;
-}
-
-input[type="color"]::-webkit-color-swatch-wrapper {
-  padding: 0;
-  border-radius: 0;
-}
-
-input[type="color"]::-webkit-color-swatch {
-  border: none;
+  gap: 20px;
 }
