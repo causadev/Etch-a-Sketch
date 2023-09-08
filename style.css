@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 .container {
   margin: 0 auto;
   display: grid;
@@ -42,11 +46,12 @@ input[type="color"] {
   width: 75px;
   height: 75px;
   border: none;
-  margin: 18px;
+  padding: 0;
+  margin: 8px;
 }
 
 input[type="range"] {
-  margin: 12px;
+  margin: 5px;
 }
 
 .containerSettings {
@@ -55,4 +60,9 @@ input[type="range"] {
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 8px;
 }
