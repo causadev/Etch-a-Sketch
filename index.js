@@ -21,7 +21,7 @@ color.value = defaultColor;
 input.value = gridSize;
 value.textContent = `${gridSize} x ${gridSize}`;
 
-input.addEventListener("input", (event) => {
+input.addEventListener("mouseout", (event) => {
   gridSize = event.target.value;
   value.textContent = `${gridSize} x ${gridSize}`;
   clearGrid();
