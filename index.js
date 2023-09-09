@@ -29,7 +29,6 @@ input.addEventListener("mouseup", (event) => {
 
 function clearGrid() {
   container.innerHTML = "";
-  currentMode = "";
   createGrid(gridSize);
 }
 
