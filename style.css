@@ -55,11 +55,14 @@ input[type="color"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 20px;
 }
 
 p {
   font-size: 18px;
   margin: 8px;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 5px;
 }
