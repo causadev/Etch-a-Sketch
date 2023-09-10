@@ -19,11 +19,11 @@ colorModeBtn.addEventListener("click", colorMode);
 
 color.value = defaultColor;
 input.value = gridSize;
-value.textContent = `${gridSize} x ${gridSize}`;
+value.textContent = `Grid size: ${gridSize} x ${gridSize}`;
 
 input.addEventListener("mouseup", (event) => {
   gridSize = event.target.value;
-  value.textContent = `${gridSize} x ${gridSize}`;
+  value.textContent = `Grid size: ${gridSize} x ${gridSize}`;
   clearGrid();
 });
 

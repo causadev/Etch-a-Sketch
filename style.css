@@ -28,6 +28,7 @@ h1 {
 button {
   width: 100px;
   margin: 5px;
+  margin-bottom: 20px;
   padding: 10px 20px;
   font-size: 16px;
   background-color: #007bff;
@@ -48,10 +49,6 @@ input[type="color"] {
   border: none;
   padding: 0;
   margin: 8px;
-}
-
-input[type="range"] {
-  margin: 5px;
 }
 
 .containerSettings {
